@@ -14,7 +14,7 @@ public class Task1 {
         }
         System.out.println(ourDeque);
 
-        System.out.println("Перевернутый список"5);
+        System.out.println("Перевернутый список");
         while (ourDeque.size() > 0) {
             System.out.print(ourDeque.pollLast() + " ");
         }
